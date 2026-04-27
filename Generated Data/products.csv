@@ -1,0 +1,501 @@
+product_id,category,unit_cost
+1,Electronics,407.69
+2,Automotive,373.7
+3,Textiles,289.47
+4,Medical Supplies,94.38
+5,Medical Supplies,350.1
+6,Medical Supplies,13.71
+7,Textiles,173.52
+8,Textiles,60.92
+9,Medical Supplies,297.61
+10,Electronics,79.53
+11,Automotive,426.71
+12,Electronics,409.84
+13,Medical Supplies,179.99
+14,Electronics,15.72
+15,Automotive,232.2
+16,Electronics,266.77
+17,Medical Supplies,156.65
+18,Automotive,84.16
+19,Electronics,107.26
+20,Medical Supplies,299.5
+21,Electronics,152.09
+22,Textiles,490.12
+23,Medical Supplies,210.51
+24,Textiles,65.97
+25,Medical Supplies,241.17
+26,Electronics,59.72
+27,Medical Supplies,204.59
+28,Automotive,493.06
+29,Medical Supplies,192.17
+30,Electronics,131.61
+31,Electronics,332.28
+32,Automotive,419.1
+33,Textiles,415.39
+34,Electronics,196.18
+35,Automotive,474.69
+36,Electronics,326.53
+37,Electronics,491.1
+38,Automotive,254.03
+39,Textiles,136.62
+40,Textiles,64.04
+41,Automotive,366.95
+42,Medical Supplies,15.54
+43,Medical Supplies,266.77
+44,Automotive,84.42
+45,Automotive,426.98
+46,Medical Supplies,373.55
+47,Electronics,103.19
+48,Medical Supplies,219.78
+49,Automotive,206.26
+50,Automotive,184.1
+51,Medical Supplies,81.06
+52,Medical Supplies,223.46
+53,Textiles,255.52
+54,Medical Supplies,36.8
+55,Textiles,221.89
+56,Automotive,418.15
+57,Electronics,361.15
+58,Medical Supplies,173.85
+59,Automotive,379.21
+60,Electronics,301.99
+61,Textiles,192.51
+62,Automotive,234.82
+63,Medical Supplies,241.16
+64,Electronics,116.7
+65,Automotive,192.88
+66,Textiles,250.22
+67,Medical Supplies,218.06
+68,Automotive,13.16
+69,Automotive,155.47
+70,Medical Supplies,476.96
+71,Electronics,110.25
+72,Electronics,455.79
+73,Medical Supplies,433.45
+74,Textiles,439.37
+75,Medical Supplies,36.24
+76,Textiles,202.92
+77,Electronics,166.89
+78,Medical Supplies,200.6
+79,Automotive,241.72
+80,Electronics,208.21
+81,Automotive,222.99
+82,Textiles,308.16
+83,Medical Supplies,329.63
+84,Automotive,293.38
+85,Textiles,371.01
+86,Automotive,325.89
+87,Medical Supplies,222.33
+88,Textiles,153.21
+89,Medical Supplies,119.43
+90,Textiles,159.87
+91,Electronics,15.22
+92,Automotive,328.15
+93,Electronics,70.55
+94,Textiles,160.26
+95,Textiles,382.53
+96,Medical Supplies,462.39
+97,Automotive,43.97
+98,Automotive,249.25
+99,Medical Supplies,18.11
+100,Medical Supplies,311.96
+101,Automotive,343.67
+102,Electronics,219.85
+103,Textiles,210.19
+104,Electronics,430.3
+105,Electronics,49.12
+106,Automotive,331.4
+107,Electronics,126.11
+108,Textiles,47.09
+109,Automotive,374.83
+110,Medical Supplies,356.5
+111,Electronics,461.69
+112,Electronics,117.06
+113,Automotive,235.27
+114,Medical Supplies,184.37
+115,Automotive,125.79
+116,Textiles,402.11
+117,Automotive,111.8
+118,Automotive,352.97
+119,Textiles,427.56
+120,Electronics,385.89
+121,Medical Supplies,368.83
+122,Medical Supplies,381.61
+123,Textiles,46.54
+124,Automotive,495.83
+125,Automotive,86.27
+126,Automotive,120.97
+127,Electronics,438.78
+128,Automotive,332.6
+129,Textiles,289.33
+130,Electronics,397.85
+131,Textiles,119.13
+132,Textiles,497.91
+133,Medical Supplies,40.81
+134,Medical Supplies,277.05
+135,Textiles,489.41
+136,Automotive,205.6
+137,Electronics,436.15
+138,Electronics,390.38
+139,Electronics,441.84
+140,Automotive,98.05
+141,Textiles,208.03
+142,Textiles,414.07
+143,Textiles,40.72
+144,Electronics,188.25
+145,Medical Supplies,416.05
+146,Automotive,459.62
+147,Textiles,54.35
+148,Textiles,463.66
+149,Electronics,284.37
+150,Medical Supplies,492.11
+151,Automotive,182.17
+152,Automotive,196.45
+153,Automotive,483.47
+154,Medical Supplies,85.28
+155,Automotive,357.23
+156,Medical Supplies,317.91
+157,Automotive,411.45
+158,Automotive,275.64
+159,Electronics,470.36
+160,Medical Supplies,123.07
+161,Automotive,42.53
+162,Electronics,279.1
+163,Automotive,360.0
+164,Automotive,487.77
+165,Automotive,323.25
+166,Medical Supplies,386.69
+167,Electronics,114.26
+168,Automotive,138.38
+169,Textiles,394.9
+170,Medical Supplies,268.86
+171,Electronics,82.37
+172,Automotive,135.88
+173,Automotive,110.05
+174,Medical Supplies,189.38
+175,Medical Supplies,103.1
+176,Electronics,355.63
+177,Automotive,93.5
+178,Automotive,298.79
+179,Electronics,405.57
+180,Medical Supplies,50.83
+181,Electronics,179.7
+182,Medical Supplies,361.22
+183,Medical Supplies,492.72
+184,Medical Supplies,54.22
+185,Electronics,242.41
+186,Medical Supplies,135.61
+187,Electronics,409.9
+188,Electronics,463.95
+189,Textiles,205.56
+190,Textiles,114.09
+191,Medical Supplies,303.96
+192,Electronics,435.11
+193,Medical Supplies,460.74
+194,Automotive,191.68
+195,Textiles,236.69
+196,Automotive,359.76
+197,Textiles,463.67
+198,Electronics,440.87
+199,Medical Supplies,100.6
+200,Textiles,321.01
+201,Electronics,153.76
+202,Medical Supplies,349.64
+203,Medical Supplies,438.85
+204,Medical Supplies,363.73
+205,Electronics,216.66
+206,Textiles,45.19
+207,Automotive,482.65
+208,Medical Supplies,477.53
+209,Textiles,207.27
+210,Medical Supplies,476.46
+211,Electronics,361.56
+212,Automotive,208.33
+213,Textiles,412.95
+214,Medical Supplies,326.87
+215,Textiles,450.38
+216,Textiles,330.92
+217,Automotive,464.27
+218,Medical Supplies,108.25
+219,Automotive,351.62
+220,Textiles,301.74
+221,Medical Supplies,341.81
+222,Textiles,140.64
+223,Automotive,209.05
+224,Textiles,172.71
+225,Automotive,28.22
+226,Medical Supplies,396.34
+227,Textiles,157.83
+228,Automotive,423.41
+229,Textiles,459.32
+230,Textiles,451.93
+231,Electronics,377.51
+232,Textiles,271.04
+233,Electronics,435.87
+234,Textiles,147.9
+235,Automotive,241.69
+236,Automotive,466.99
+237,Automotive,129.87
+238,Electronics,41.57
+239,Textiles,357.34
+240,Automotive,141.8
+241,Automotive,495.69
+242,Textiles,156.62
+243,Textiles,72.52
+244,Textiles,27.68
+245,Automotive,177.45
+246,Automotive,488.02
+247,Automotive,180.52
+248,Textiles,14.75
+249,Electronics,372.22
+250,Medical Supplies,224.78
+251,Electronics,407.45
+252,Textiles,186.15
+253,Automotive,164.9
+254,Medical Supplies,230.23
+255,Textiles,83.84
+256,Medical Supplies,46.14
+257,Electronics,123.24
+258,Textiles,448.83
+259,Medical Supplies,167.72
+260,Textiles,494.06
+261,Medical Supplies,340.57
+262,Textiles,258.64
+263,Electronics,247.38
+264,Medical Supplies,111.13
+265,Automotive,425.74
+266,Medical Supplies,382.04
+267,Medical Supplies,111.5
+268,Textiles,98.94
+269,Textiles,237.43
+270,Automotive,75.38
+271,Automotive,250.07
+272,Electronics,310.19
+273,Automotive,161.83
+274,Electronics,206.73
+275,Textiles,12.59
+276,Textiles,243.4
+277,Textiles,37.66
+278,Medical Supplies,21.01
+279,Electronics,473.12
+280,Electronics,82.64
+281,Textiles,445.39
+282,Textiles,318.51
+283,Medical Supplies,223.61
+284,Electronics,120.15
+285,Medical Supplies,393.77
+286,Electronics,89.64
+287,Electronics,406.15
+288,Automotive,486.94
+289,Textiles,264.46
+290,Medical Supplies,472.09
+291,Medical Supplies,14.96
+292,Electronics,54.3
+293,Electronics,46.8
+294,Electronics,492.14
+295,Electronics,243.65
+296,Automotive,331.29
+297,Textiles,120.06
+298,Medical Supplies,96.74
+299,Electronics,155.97
+300,Electronics,327.58
+301,Electronics,236.23
+302,Electronics,447.42
+303,Medical Supplies,290.02
+304,Electronics,159.31
+305,Automotive,23.77
+306,Electronics,270.51
+307,Electronics,255.59
+308,Electronics,303.41
+309,Electronics,274.17
+310,Automotive,455.3
+311,Electronics,152.47
+312,Automotive,156.41
+313,Medical Supplies,222.09
+314,Textiles,498.43
+315,Medical Supplies,251.77
+316,Textiles,263.52
+317,Electronics,231.84
+318,Textiles,92.66
+319,Medical Supplies,148.3
+320,Automotive,329.68
+321,Medical Supplies,419.76
+322,Electronics,147.62
+323,Medical Supplies,486.38
+324,Textiles,167.93
+325,Textiles,394.74
+326,Automotive,245.36
+327,Electronics,397.09
+328,Textiles,21.97
+329,Electronics,255.88
+330,Textiles,18.64
+331,Electronics,216.21
+332,Textiles,19.43
+333,Electronics,399.19
+334,Automotive,112.09
+335,Textiles,362.52
+336,Textiles,372.39
+337,Textiles,60.36
+338,Electronics,292.96
+339,Automotive,419.97
+340,Medical Supplies,327.92
+341,Textiles,255.45
+342,Automotive,54.52
+343,Medical Supplies,221.48
+344,Electronics,51.4
+345,Electronics,96.04
+346,Electronics,414.55
+347,Automotive,247.48
+348,Electronics,132.08
+349,Medical Supplies,97.52
+350,Electronics,322.6
+351,Textiles,140.08
+352,Electronics,143.13
+353,Automotive,491.35
+354,Automotive,393.29
+355,Automotive,72.97
+356,Automotive,173.31
+357,Textiles,213.49
+358,Textiles,384.29
+359,Automotive,489.43
+360,Textiles,13.74
+361,Textiles,364.01
+362,Textiles,172.11
+363,Medical Supplies,15.43
+364,Automotive,373.26
+365,Automotive,89.35
+366,Electronics,142.81
+367,Automotive,385.17
+368,Medical Supplies,53.17
+369,Medical Supplies,86.21
+370,Medical Supplies,79.0
+371,Textiles,438.11
+372,Textiles,398.42
+373,Textiles,413.5
+374,Automotive,428.44
+375,Automotive,402.44
+376,Electronics,439.73
+377,Medical Supplies,74.84
+378,Electronics,408.11
+379,Electronics,38.52
+380,Electronics,245.63
+381,Textiles,492.75
+382,Electronics,482.44
+383,Electronics,18.98
+384,Automotive,365.18
+385,Automotive,48.39
+386,Textiles,260.87
+387,Medical Supplies,487.19
+388,Electronics,86.45
+389,Automotive,341.64
+390,Electronics,267.32
+391,Automotive,53.68
+392,Textiles,205.49
+393,Textiles,497.83
+394,Automotive,328.71
+395,Electronics,292.92
+396,Textiles,483.53
+397,Electronics,300.33
+398,Medical Supplies,385.35
+399,Textiles,346.07
+400,Automotive,129.49
+401,Medical Supplies,362.51
+402,Medical Supplies,208.18
+403,Textiles,251.74
+404,Medical Supplies,223.8
+405,Medical Supplies,57.75
+406,Electronics,202.98
+407,Electronics,184.1
+408,Medical Supplies,226.49
+409,Textiles,328.15
+410,Electronics,164.44
+411,Textiles,254.77
+412,Medical Supplies,426.22
+413,Medical Supplies,413.71
+414,Electronics,165.91
+415,Electronics,328.75
+416,Electronics,368.0
+417,Electronics,243.63
+418,Textiles,485.01
+419,Medical Supplies,79.27
+420,Automotive,14.56
+421,Textiles,327.39
+422,Automotive,327.01
+423,Textiles,373.23
+424,Electronics,273.71
+425,Textiles,363.26
+426,Textiles,13.04
+427,Automotive,145.83
+428,Textiles,307.39
+429,Electronics,342.94
+430,Medical Supplies,369.4
+431,Electronics,261.85
+432,Textiles,227.52
+433,Medical Supplies,247.99
+434,Electronics,476.58
+435,Electronics,317.63
+436,Electronics,167.38
+437,Automotive,478.41
+438,Electronics,330.87
+439,Medical Supplies,330.67
+440,Textiles,320.75
+441,Medical Supplies,202.26
+442,Textiles,157.61
+443,Automotive,120.85
+444,Electronics,262.2
+445,Medical Supplies,95.42
+446,Automotive,51.69
+447,Electronics,393.73
+448,Automotive,90.22
+449,Electronics,446.41
+450,Medical Supplies,436.66
+451,Automotive,218.36
+452,Medical Supplies,308.73
+453,Automotive,381.82
+454,Medical Supplies,412.59
+455,Textiles,146.01
+456,Electronics,118.59
+457,Electronics,233.17
+458,Automotive,393.83
+459,Textiles,246.11
+460,Textiles,189.47
+461,Medical Supplies,215.95
+462,Textiles,34.31
+463,Automotive,428.59
+464,Medical Supplies,276.84
+465,Textiles,349.28
+466,Medical Supplies,335.57
+467,Medical Supplies,229.11
+468,Textiles,441.71
+469,Medical Supplies,451.79
+470,Textiles,288.24
+471,Electronics,309.9
+472,Medical Supplies,390.24
+473,Medical Supplies,216.78
+474,Medical Supplies,50.53
+475,Automotive,10.7
+476,Automotive,279.14
+477,Automotive,362.5
+478,Textiles,445.07
+479,Automotive,170.78
+480,Automotive,189.25
+481,Medical Supplies,148.71
+482,Textiles,341.43
+483,Textiles,296.01
+484,Automotive,48.57
+485,Textiles,363.58
+486,Textiles,44.92
+487,Medical Supplies,64.34
+488,Medical Supplies,463.84
+489,Electronics,13.66
+490,Electronics,437.91
+491,Electronics,16.41
+492,Textiles,452.61
+493,Medical Supplies,30.83
+494,Electronics,254.26
+495,Textiles,144.59
+496,Automotive,148.4
+497,Medical Supplies,371.7
+498,Automotive,66.13
+499,Textiles,230.09
+500,Medical Supplies,109.44
