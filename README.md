@@ -1,32 +1,35 @@
-# Global Supply Chain & Distribution Data Warehouse
+# Full-Stack Global Supply Chain Data Platform & Warehouse
 
 ## 📌 Project Overview
-This project is an end-to-end Data Engineering and Business Intelligence solution designed to track, analyze, and visualize global supply chain logistics. The architecture bridges backend database computation with a highly interactive, minimalist Tableau frontend, allowing executives to track KPIs, supplier reliability, and fulfillment bottlenecks via a dynamic Current Year (CY) vs. Previous Year (PY) parameter interface.
+This project demonstrates a complete, end-to-end data engineering and business intelligence platform. It covers the entire data lifecycle: synthetic data generation, multi-source ingestion, complex Python ETL pipelining into an Oracle Data Warehouse, advanced SQL compute, and a highly interactive executive Tableau dashboard.
 
 ## 🛠️ Tech Stack & Tools
-* **Database Engine:** Oracle SQL Developer
-* **Data Modeling:** Star Schema (STG, DIM, FACT tables)
-* **Advanced Compute:** CTEs, Window Functions, Materialized Views, PL/SQL
-* **Business Intelligence:** Tableau
-* **UI/UX Design:** Minimalist 60-30-10 aesthetic, Dual-Axis Sparklines, Executive Dashboarding
+* **Data Generation:** Python (`Faker`, `pandas`)
+* **Storage & Databases:** PostgreSQL, CSV, XLSX, Oracle SQL Developer
+* **ETL Engine:** Python (Database connectors & data manipulation)
+* **Advanced DB Compute:** CTEs, Window Functions, Materialized Views, PL/SQL
+* **Business Intelligence:** Tableau (Dual-axis, parameter-driven logic)
 
-## 🏗️ Architecture & Features
+## 🏗️ Architecture & Pipeline Lifecycle
 
-### 1. Database-Level Compute
-To optimize BI performance, heavy data transformations were pushed down to the database level. 
-* **Materialized Views:** Pre-calculates row-level binary logic (e.g., On-Time Delivery status) and time-series aggregates.
-* **PL/SQL Automation:** Includes stored procedures to update and refresh the materialized views as new staging data arrives.
+### 1. Synthetic Data Generation
+* Leveraged the Python **Faker** library to generate massive, realistic supply chain datasets.
+* Dispersed the generated data across three distinct sources to simulate a fragmented enterprise environment: a local **PostgreSQL** instance, flat **CSV** files, and formatted **Excel (XLSX)** spreadsheets.
 
-### 2. Parameter-Driven BI Dashboard
-The Tableau frontend abandons standard filter shelves in favor of complex Calculated Fields driven by a single `Select Year` parameter. This enables:
-* **Overlapping CY vs. PY Sparklines:** Dual-axis line charts that instantly compare historical performance without dropping context.
-* **Dynamic KPIs:** Real-time percentage variance calculations for Total Logistics Spend, Average Lead Time, Volume Throughput, and Defect Rates.
+### 2. Python ETL Pipelining
+* Engineered a centralized Python ETL script that automated connections to PostgreSQL, local CSVs, and Excel files.
+* Extracted the isolated datasets, performed light schema mappings, and established a bridge to load and append the unified data straight into an **Oracle Database**.
 
-### 3. Visual Insights
-* **The Lead Time Crisis:** A step-line forecast chart tracking shipping delays.
-* **Global Fulfillment Heatmap:** Spatial analysis of distribution density.
-* **Supplier Reliability Matrix:** A scatter plot mapping defect rates against delivery speed to identify high-risk vendors.
+### 3. Data Warehousing & Cleaning (Oracle)
+* Built out a complete Star Schema including Staging (**STG**), Dimension (**DIM**), and Fact (**FACT**) tables.
+* Audited data types, executed schema modifications for type safety, and ran various data quality validation scripts before production use.
 
-## 💡 Key Technical Challenges Solved
-* Resolved complex "Aggregate vs. Non-Aggregate" calculation boundaries in Tableau by nesting conditional logic inside aggregation functions.
-* Bypassed Tableau's Order of Operations filter conflicts by engineering custom Level of Detail (LOD) and Boolean internal filters to maintain PY data visibility.
+### 4. Advanced DB Compute Layer
+* Migrated heavy business operations to the database to preserve frontend dashboard performance.
+* Utilized **Common Table Expressions (CTEs)** and complex **Window Functions** (`SUM OVER`) to handle rolling cost calculations.
+* Compiled a high-performance **Materialized View** and programmed a **PL/SQL Procedure** to handle scheduled data refreshes automatically.
+
+### 5. Parameter-Driven Tableau Dashboard
+* Built a high-end, visual dashboard using advanced calculated fields to bypass Tableau filter limitations.
+* Engineered a custom `Select Year` parameter to force Current Year (CY) and Previous Year (PY) sparklines to perfectly overlap.
+* Maintained a strict, high-contrast visual hierarchy optimal for executive analysis.
